@@ -1,0 +1,69 @@
+#payment .payment_methods li .payment_box.payment_method_younitedpay-gateway{
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#wc-younitedpay-gateway-cc-form {
+	font-size: 0.8rem;
+	padding: 0 ! important;
+}
+
+#wc-younitedpay-gateway-cc-form ul {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+}
+
+#wc-younitedpay-gateway-cc-form ul li {
+	padding: 0.8rem;
+	border: 1px solid #CCD0D5;
+	border-radius: 15px;
+}
+
+#wc-younitedpay-gateway-cc-form ul li:last-child:not(.woocommerce-notice) {
+	border-bottom: 1px solid #CCD0D5 !important;
+	padding-bottom: 0.8rem !important;
+}
+
+#wc-younitedpay-gateway-cc-form ul li label {
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#wc-younitedpay-gateway-cc-form ul li p {
+	padding-top: 0.5rem;
+	line-height: 1rem;
+}
+
+#wc-younitedpay-gateway-cc-form ul li:not(.checked) p {
+	display: none;
+}
+
+li.payment_method_younitedpay-gateway img {
+	max-width: 150px;
+}
+
+#wc-younitedpay-gateway-cc-form .younitedpay-checkout-details {
+	padding: 5px;
+}
+
+#wc-younitedpay-gateway-cc-form .younitedpay-checkout-details select {
+	border: 1px solid #CCD0D5;
+	padding: 0.8rem;
+	border-radius: 15px;
+	font-size: 15px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#wc-younitedpay-gateway-cc-form .younitedpay_checkout_details_maturity {
+	padding: 0.8rem;
+	border: 1px solid #CCD0D5;
+	border-radius: 15px;
+}
+
+.payment_box.payment_method_younitedpay-gateway {
+	padding-left: 0 !important;
+}

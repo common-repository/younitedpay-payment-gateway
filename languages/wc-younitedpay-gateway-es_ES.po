@@ -1,0 +1,393 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-11 18:37+0200\n"
+"PO-Revision-Date: 2024-10-08 18:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: .\n"
+
+msgid "Enable / Disable"
+msgstr "Habilitar / Deshabilitar"
+
+msgid "Plugin Younitedpay"
+msgstr "Enchufar Younitedpay"
+
+msgid "This enable the YounitedPay gateway which allow to accept payment through YounitedPay."
+msgstr "Esto habilita la pasarela YounitedPay que permite aceptar pagos a través de YounitedPay."
+
+msgid "Title"
+msgstr "Título"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "Esto controla el título que el usuario ve durante el pago."
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que el usuario ve durante el pago."
+
+msgid "Test mode"
+msgstr "Modo sandbox"
+
+msgid "Client ID Test"
+msgstr "Client ID Sandbox"
+
+msgid "Client Secret Test"
+msgstr "Client Secret Sandbox"
+
+msgid "Client ID Production"
+msgstr "Client ID Producción"
+
+msgid "Client Secret Production"
+msgstr "Client Secret Producción"
+
+msgid "Enable Ip Whitelist"
+msgstr "Activar la lista blanca de IPs"
+
+msgid "Ip Whitelist"
+msgstr "Lista blanca de IPs"
+
+msgid "When enable, only the listed IPs will see the module's component on the site"
+msgstr "Cuando está habilitado, solo las direcciones IP enumeradas verán el componente del módulo en el sitio"
+
+msgid "Logs"
+msgstr "Registros"
+
+msgid "See the logs"
+msgstr "Ver los registros"
+
+msgid "YounitedPay Payment Gateway"
+msgstr "YounitedPay Payment Gateway"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Behaviour"
+msgstr "Comportamiento"
+
+msgid "Appearance"
+msgstr "Apariencia"
+
+msgid "Monthly installments Widget"
+msgstr "Cuotas mensuales Widget"
+
+msgid "Alternatively you can copy this code and paste it in any text on the product page."
+msgstr "Alternativamente, puede copiar este código y pegarlo en cualquier texto en la página del producto."
+
+msgid "Maturities possibles (in months)"
+msgstr "Vencimientos posibles (en meses)"
+
+msgid "Separate the different numbers with a comma."
+msgstr "Separe los diferentes números con una coma."
+
+msgid "Separate the different IPs with a comma."
+msgstr "Séparer les différentes IPs avec une virgule."
+
+msgid "Maturity %s month - Minimum amount"
+msgstr "Vencimiento %s mes - Importe mínimo"
+
+msgid "Maturity %s month - Maximum amount"
+msgstr "Vencimiento %s mes - Importe máximo"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Monthly installments"
+msgstr "Cuotas mensuales"
+
+msgid "Monthly installments in product page"
+msgstr "Cuotas mensuales en la página del producto"
+
+msgid "Monthly installments in cart page"
+msgstr "Cuotas mensuales en la página del carrito"
+
+msgid "Theses values are located registered by your current theme, you can choose any of them to place the widget where it looks the best."
+msgstr "Estos valores se encuentran registrados por su tema actual, puede elegir cualquiera de ellos para colocar el widget donde se vea mejor."
+
+msgid "Click on this link for more informations"
+msgstr "Haga clic en este enlace para obtener más información"
+
+msgid "Nothing"
+msgstr "Nada"
+
+msgid "Either"
+msgstr "Cualquiera"
+
+msgid "%s / months"
+msgstr "%s / mes"
+
+msgid "with financing in"
+msgstr "con financiamiento en"
+
+msgid "monthly installments with"
+msgstr "cuotas mensuales con"
+
+msgid "month"
+msgstr "mes"
+
+msgid "months"
+msgstr "meses"
+
+msgid "Credit amount"
+msgstr "Importe de tu compra"
+
+msgid "+ Interests on credit"
+msgstr "+ Intereses"
+
+msgid "= Total amount due"
+msgstr "= Importe total adeudado"
+
+msgid "Fixed APR"
+msgstr "TAE"
+
+msgid "Fixed lending rate"
+msgstr "TIN"
+
+msgid "A credit commits you and must be repaid. Check your repayment capacity before you commit."
+msgstr " "
+
+msgid "A question ? Click here"
+msgstr "Una pregunta ? Haga clic aquí"
+
+msgid "Simple."
+msgstr "Sencillo."
+
+msgid "Instant."
+msgstr "Instantáneo."
+
+msgid "Secure."
+msgstr "Seguro."
+
+msgid "It has never been easier to pay in installments."
+msgstr "Nunca ha sido tan fácil pagar a plazos."
+
+msgid "Your purchase for"
+msgstr "Tu compra por"
+
+msgid "%s/month"
+msgstr "%s al mes"
+
+msgid "with"
+msgstr "con"
+
+msgid "Younited Pay"
+msgstr "Younited Pay"
+
+msgid "Buy today and start paying"
+msgstr "Compra hoy y empieza a pagar"
+
+msgid "after 30 days."
+msgstr "después de 30 días."
+
+msgid "Financing amount"
+msgstr "Importe a financiar"
+
+msgid "Cost of financing"
+msgstr "Coste de financiación"
+
+msgid "(i.e. fixed APR of %1$s, fixed lending rate %2$s)."
+msgstr "(es decir, TAE %1$s, TIN %2$s)."
+
+msgid "Total amount due"
+msgstr "Importe total adeudado"
+
+msgid "Your monthly installments will therefore be"
+msgstr "Por lo tanto, tus cuotas mensuales serán de"
+
+msgid "%1$s / month during %2$s months"
+msgstr "%1$s al mes durante %2$s meses"
+
+msgid "Pay in %s x"
+msgstr "Pagar en %s x"
+
+msgid "Multiples maturities : a maturity must be a number and even. Example : 4,8,12,24,36"
+msgstr "Múltiples vencimientos: un vencimiento debe ser un número e incluso. Exemple : 4,8,12,24,36"
+
+msgid "Maturity %s month : "
+msgstr "Vencimiento %s mes : "
+
+msgid "The minimum amount and maximum amount must be defined to activate the maturity."
+msgstr "Se debe definir el monto mínimo y el monto máximo para activar el vencimiento."
+
+msgid "Minimum amount must be numeric."
+msgstr "El importe mínimo debe ser numérico."
+
+msgid "The minimum amount must be greater than or equal to 0."
+msgstr "El monto mínimo debe ser mayor o igual a 0."
+
+msgid "Maximum amount must be numeric."
+msgstr "La cantidad máxima debe ser numérica."
+
+msgid "The maximum amount must be greater than the minimum amount."
+msgstr "La cantidad máxima debe ser mayor que la cantidad mínima."
+
+msgid "Contract cancellation"
+msgstr "Cancelación de contrato"
+
+msgid "Please enter you API credentials before changing the module's settings"
+msgstr "Ingrese sus credenciales de API antes de cambiar la configuración del módulo"
+
+msgid "The first name is required"
+msgstr "El primer nombre es obligatorio"
+
+msgid "The name is required"
+msgstr "El nombre es requerido"
+
+msgid "The phone is required"
+msgstr "El teléfono es requerido"
+
+msgid "The phone is invalid (accepted formats : 0601020304 / 00%1$s601020304 / +%2$s601020304)"
+msgstr "El teléfono no es válido (formatos aceptados : 0601020304 / 00%1$s601020304 / +%2$s601020304)"
+
+msgid "The mail is required"
+msgstr "El correo es requerido"
+
+msgid "The address is required"
+msgstr "La dirección es requerida"
+
+msgid "The postal code is required"
+msgstr "El código postal es requerido"
+
+msgid "The city is required"
+msgstr "La ciudad es requerida"
+
+msgid "Status changed by webhook of Younited Pay"
+msgstr "Estado cambiado por notificación de Younited Pay"
+
+msgid "This status is not editable. - "
+msgstr "Este estado no es editable. - "
+
+msgid "Error Call Younited Pay Api - Rollback Status - "
+msgstr "Error al llamar a Younited Pay Api - Estado de reversión - "
+
+msgid "The completed status cannot be changed by the %s status - "
+msgstr "El estado completado no se puede cambiar por el estado %s - "
+
+msgid "Offer your customers to pay up to 36 times"
+msgstr "Ofrezca a sus clientes pagar hasta 36 veces"
+
+msgid "Please select the number of payments you wish to make with YounitedPay"
+msgstr "Seleccione el número de pagos que desea realizar con YounitedPay"
+
+msgid "A technical error has occurred"
+msgstr "Ha ocurrido un error técnico"
+
+msgid "Administrative language"
+msgstr "Idioma administrativo"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Logo color"
+msgstr "Color del logotipo"
+
+msgid "White logo"
+msgstr "Logotipo blanco"
+
+msgid "Black logo"
+msgstr "Logotipo oscuro"
+
+msgid "Webhook Secret is not defined"
+msgstr "La clave Webhook Secret no está definida"
+
+msgid "Webhook Secret Test"
+msgstr "Webhook Secret Sandbox"
+
+msgid "Webhook Secret Production"
+msgstr "Webhook Secret Producción"
+
+msgid "Younited Pay is an instant credit solution designed for large purchases, from €300 to €50,000."
+msgstr "Younited Pay es una solución de crédito instantáneo diseñada para compras grandes, de 300€ a 50.000€."
+
+msgid "Your customers repay at their own pace between 10 and 84 months."
+msgstr "Tus clientes podrán pagar a su ritmo, entre 10 y 84 meses."
+
+msgid "A question about Younited Pay?"
+msgstr "¿Una pregunta sobre Younited Pay?"
+
+msgid "If your question concerns the Younited Pay solution or your business relationship with Younited,"
+msgstr "Si su pregunta se refiere a la solución Younited Pay o a su relación comercial con Younited,"
+
+msgid "you can reach a technical team or your account manager from your YounitedPay Back Office via our ticketing system."
+msgstr "puede contactar nuestro equipo técnico o su Key Account Manager directamente desde su back office YounitedPay."
+
+msgid "If your question concerns technical difficulties with the WooCommerce module, please contact our support team via the button below."
+msgstr "Si su pregunta se refiere a dificultades técnicas con el módulo WooCommerce, por favor contacte con nuestro equipo técnico con el botón de abajo."
+
+msgid "Contact Support"
+msgstr "Soporte de contact"
+
+msgid "To display the new maturities added, save the modifications,"
+msgstr "Para visualizar los nuevos vencimientos añadidos,"
+
+msgid "the new maturities will appear below the existing ones."
+msgstr "guarde los cambios, los nuevos vencimientos aparecerán debajo de los existentes."
+
+msgid "Home"
+msgstr "Hogar"
+
+msgid "Support"
+msgstr "Apoyo"
+
+msgid "Younited Pay - Contract reference %s"
+msgstr "Younited Pay - Referencia del contrato %s"
+
+msgid "Q/A"
+msgstr "Sección de preguntas"
+
+msgid "Buy now and pay as you go"
+msgstr "Compra ahora y paga a plazos"
+
+msgid "Start paying in just 30 days"
+msgstr "Financia tu compra al instante"
+
+msgid "(excluding optional insurance)"
+msgstr " "
+
+# bestprice step1
+msgid "At checkout step, select <strong>Younited Pay</strong>"
+msgstr "Selecciona <strong>Younited Pay</strong> como método de pago"
+
+# bestprice step2
+msgid "Choose the repayment <strong>duration</strong>"
+msgstr "Elige los plazos de tu <strong>financiación</strong>"
+
+# bestprice step3
+msgid "<strong>Simply</strong> and <strong>securely</strong> connect your bank account"
+msgstr "Completa tu solicitud en <strong>unos minutos</strong>"
+
+# bestprice step4
+msgid "Receive a response <strong>within seconds</strong>"
+msgstr "Recibe tu respuesta en <strong>segundos</strong>"
+
+msgid "This payment method is not available at this amount."
+msgstr "Este método de pago no está disponible en este monto."
+
+msgid "Warning, you must update the status of your order, it is not synchronized with the status of the Younited Pay contract"
+msgstr "Atención, debes actualizar el estado de tu pedido, no está sincronizado con el estado del contrato Younited Pay"
+
+msgid " - Status %s"
+msgstr " - Estado %s"
+
+msgid "The status of the Younited Pay contract does not allow this modification - "
+msgstr "El estado del contrato Younited Pay no permite esta modificación - "
+
+msgid "The API connection is successful. Please proceed to the configurations of maturities you want to offer to your clients."
+msgstr "La conexión a la API está operativa. Ya puedes configurar las cuotas que deseas ofrecer a tus clientes."
+
+msgid "Connection was not successful. Your API credentials are incorrect, please check them again on the Younited Pay back-office before retrying."
+msgstr "Imposible conectarse a l’API. Puedes visualizar los identificadores de la API Younited Pay en tu Back-Office."
+
+msgid "Your account has a configuration issue. Please contact your account manager at Younited."
+msgstr "Tu cuenta tiene un problema de configuración. Por favor, ponte en contacto con tu gestor de cuenta Younited."
+
+msgid "Your client id and client secret are not recognised"
+msgstr "Tu client id y client secret son incorrectos"

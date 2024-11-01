@@ -1,0 +1,332 @@
+:root {
+	--younitedpay-purple: #c5a1fe;
+	--younitedpay-pink: #F9F5FF;
+	--younitedpay-purple-dark: #6200FE;
+	--younitedpay-grey: #564C5D;
+	--younitedpay-light-grey: #9A949E;
+}
+
+@font-face {
+	font-family: "Roc Grotesk";
+	src: url("./fonts/RocGroteskMedium.otf") format("opentype");
+}
+
+/* SECTION Info prix avec bouton */
+.younitedpay-bestprice-action .younitedpay-bestprice-action-button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.younitedpay-bestprice-action .younitedpay-bestprice-action-desc {
+		text-align: center;
+	}
+
+	.younitedpay-bestprice-action .younitedpay-bestprice-action-button {
+		justify-content: center;
+	}
+}
+
+/* SECTION Info prix avec bouton END */
+
+#younitedpay-bestprice-modal {
+	z-index: 1500;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-family: "Roc Grotesk", Roboto, sans-serif;
+	border: 1px solid var(--younitedpay-purple) !important;
+}
+
+@media (max-width: 500px) {
+	#younitedpay-bestprice-modal {
+		top: 45%;
+	}
+}
+
+
+#younitedpay-bestprice-modal div {
+	box-sizing: border-box;
+}
+
+/* SECTION GAUCHE */
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-left {
+	height: 620px;
+	width: 325px;
+	padding: 40px;
+	gap: 30px;
+	background-color: var(--younitedpay-pink);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 850px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-left {
+		display: none !important;
+	}
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-steps>div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-steps>div>span {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--younitedpay-grey);
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-steps>div>div>div {
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+	background-color: var(--younitedpay-purple);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-title {
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 46px;
+	letter-spacing: -0.02em;
+	text-align: left;
+	display: flex;
+	align-items: flex-end;
+	width: 245px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-title-fr {
+	height: 184px;
+	width: 240px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-title-en {
+	height: 120px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-title-es {
+	height: 130px;
+	width: 230px;
+}
+
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-logo {
+	display: flex;
+	justify-content: center;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-logo>img {
+	width: 100px;
+}
+
+/* SECTION GAUCHE - FIN */
+
+/* SECTION DROITE */
+#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+	height: 620px;
+	width: 532px;
+	padding: 40px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 800px;
+		height: auto;
+		max-height: 100vh;
+		overflow-y: auto;
+	}
+}
+
+@media (max-width: 810px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 700px;
+	}
+}
+
+@media (max-width: 710px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 600px;
+	}
+}
+
+@media (max-width: 610px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 500px;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 510px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 400px;
+	}
+}
+
+@media (max-width: 410px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-right {
+		width: 350px;
+	}
+}
+
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-starting-payment {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-payment-info {
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-price-per-month {
+	color: var(--younitedpay-purple-dark);
+	font-weight: bold;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-starting-payment>span {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: -0.02em;
+	text-align: left;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-starting-payment>div>img {
+	width: 30px;
+	margin-top: 3px;
+}
+
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-details {
+	background-color: var(--younitedpay-pink);
+	padding: 24px;
+	height: 240px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-right .younitedpay-bestprice-details hr {
+	margin: 10px 0;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-bloc>div {
+	display: flex;
+	justify-content: space-between;
+
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--younitedpay-grey);
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-bloc>div:last-child {
+	padding-top: 10px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-bloc>div.younitedpay-bestprice-bloc-lg {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-bloc>div>span:last-child {
+	font-weight: 600;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-month-choice {
+	display: flex;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-month-choice span {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 2px;
+	margin-right: 10px;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-month-choice .younitedpay-bestprice-month-checked span {
+	border-bottom: 2px solid var(--younitedpay-purple-dark);
+	color: var(--younitedpay-purple-dark)
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-right hr {
+	margin: 40px 0;
+}
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-credit {
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: var(--younitedpay-light-grey);
+	margin-bottom: 0;
+
+	height: 90px;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 620px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-credit {
+		height: 80px;
+	}
+}
+
+@media (max-width: 500px) {
+	#younitedpay-bestprice-modal .younitedpay-bestprice-credit {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+
+#younitedpay-bestprice-modal .younitedpay-bestprice-month-choice>div,
+#younitedpay-bestprice-modal .younitedpay-bestprice-close {
+	cursor: pointer;
+}
+
+/* SECTION DROITE - FIN */

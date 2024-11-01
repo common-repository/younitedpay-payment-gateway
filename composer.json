@@ -1,0 +1,16 @@
+{
+	"name": "younitedpay/wc-younitedpay-gateway",
+	"description": "YounitedPay Payment Gateway",
+	"type": "wordpress-plugin",
+	"autoload": {
+		"psr-4": {
+			"Younitedpay\\WcYounitedpayGateway\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Sokeo"
+		}
+	],
+	"require": {}
+}
